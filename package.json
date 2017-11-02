@@ -1,0 +1,23 @@
+{
+  "name": "blog-api-chal",
+  "version": "1.0.0",
+  "description": "basic api blog challgenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csierra15/BlogAPIChallenge.git"
+  },
+  "author": "Carly Sierra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csierra15/BlogAPIChallenge/issues"
+  },
+  "homepage": "https://github.com/csierra15/BlogAPIChallenge#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "uuid": "^3.1.0"
+  }
+}

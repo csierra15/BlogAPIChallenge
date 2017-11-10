@@ -36,8 +36,7 @@ describe('blog-posts', function() {
           const newItem = {
               title: 'A Day in the Fall',
               content: 'I love the fall.' + ' ' + 'It is great.' + ' ' + 'Best season ever.',
-              author: 'Carly S',
-              publishDate: 'Nov 9 2017'
+              author: 'Carly S'
              };
           return chai.request(app)
              .post('/blog-posts')
@@ -48,7 +47,7 @@ describe('blog-posts', function() {
                 res.body.should.be.a('object');
                 res.body.should.include.keys('title', 'content', 'author');
                 res.body.id.should.not.be.null;
-                res.body.should.deep.equal(Object.assign(newItem, {id: res.body.id}));
+                res.body.should.deep.equal(Object.assign(newItem, {id: res.body.id}, {publishDate: res.body.publishDate}));
              });
       });
 

@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: cd10GvYRPdeyufgij7egL6+LClRDu3jeknowk1M1whfqrKY3GE3//BKnszEywl2RyVO/nKIbXFE7IrOkhLd4NxkPjVF2rCUAr3ZN7r/Pv/zfNasrQE9tf06g0WNn/oT73lBiu947uvWlekirtNRhqrZSP57Qq866wlxp1PBgtLLG7TirbN8pFSqVZblv4Kl8U5P5dNRQ5UhvRrv6dpP00ZzhkzkLz1+6U6d/dM3Mr1ScTZH1TnItQenaLBZb22i0lgSFpcJ2sWpec5kkhsRF9cq/oKH7/Jkc/DBQWlJK4Iky+gxAE1rKNaD/0u8e7gGMn35YkSXkzuWKrkSI+8mv2/pcKjejz+u6eAxVoAp1Ihl4trO+VZcV2Qn2woNOJUMHleYgT25maNsK6ld+lHnqYNvpHPNx4MloHkCua3illQQ/jgZgiXyvUzPYZIhT0vBJ4L0zIE2K5M+dOL+mgS6vgRvqBm1aepD7fgGkxp88HfkDwNdaXUdLXjWmSw3Dds34fgjO4vHGweCdx/0CMIx03/O3vt+UNolvCvVYuRkXccRVJhZXSrB58psCXloQ+2dNuPfNNHNmX6Iz443UavJHlCGxrZ6F/sKkEE8v6UIo8Uv/MQ19MiR6QrRK2VOvD86cM020sFaaiQlBx/kW6257CPt79umfBIGfmwRZ0w7/Wqg=
+  app: shrouded-beach-25869
+  on:
+    repo: csierra15/BlogAPIChallenge
